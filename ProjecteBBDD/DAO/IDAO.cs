@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjecteBBDD.DAO
 {
+
     public interface IDAO<T, K>
     {
         void Insert(T entity);

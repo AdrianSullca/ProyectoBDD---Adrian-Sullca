@@ -10,6 +10,7 @@ namespace ProjecteBBDD.Validators
 {
     public class DTDValidator
     {
+
         public static bool Validate(string xmlFilePath)
         {
             try

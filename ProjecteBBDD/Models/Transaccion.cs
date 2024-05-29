@@ -9,6 +9,7 @@ namespace ProjecteBBDD.Models
 {
     public class Transaccion
     {
+
         private int id_transaccion;
         private int codi_cliente_t;
         private TipoTransaccionEnum tipo_transaccion;

@@ -11,7 +11,9 @@ namespace ProjecteBBDD.XmlController
 
         public BDXml(MySqlConnection connection)
         {
+
             this.connection = connection;
+
         }
 
         public void GetDatosYCrearXml(string xmlFilePath)

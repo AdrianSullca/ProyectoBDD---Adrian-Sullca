@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace ProjecteBBDD.DAO
 {
+
     public class ClienteDAO : IDAO<Cliente, int>
     {
         private MySqlConnection connection;

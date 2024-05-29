@@ -9,6 +9,7 @@ namespace ProjecteBBDD.Models
 {
     public class Pelicula
     {
+
         private int id_pelicula;
         private string portada;
         private string titulo;

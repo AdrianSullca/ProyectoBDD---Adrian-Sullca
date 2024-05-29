@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjecteBBDD.DAO
 {
+
     public class UsuarioDAO : IDAO<Usuario, int>
     {
         private MySqlConnection connection;

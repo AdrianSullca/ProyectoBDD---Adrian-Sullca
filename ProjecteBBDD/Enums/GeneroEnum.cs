@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjecteBBDD.Enums
 {
+
     public enum GeneroEnum
     {
         ACCION,

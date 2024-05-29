@@ -8,6 +8,7 @@ namespace ProjecteBBDD.Models
 {
     public class LineaTransaccion
     {
+
         private int id_linea_transaccion;
         private int id_transaccion_lt;
         private int id_pelicula_lt;

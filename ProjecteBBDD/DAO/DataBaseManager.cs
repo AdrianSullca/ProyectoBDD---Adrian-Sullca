@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace ProjecteBBDD.DAO
 {
+
     public static class DataBaseManager
     {
         private const string server = "db4free.net";
@@ -33,12 +34,13 @@ namespace ProjecteBBDD.DAO
         {
             try
             {
-                string script = File.ReadAllText(pathScript);
-                MySqlConnection connection = getConnection();
-                connection.Open();
-                MySqlCommand cmd = new MySqlCommand(script, connection);
-                cmd.ExecuteNonQuery();
-                connection.Close();
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string script = File.ReadAllText(pathScript);
+                    MySqlCommand cmd = new MySqlCommand(script, connection);
+                    cmd.ExecuteNonQuery();
+                }
             }
             catch (Exception ex)
             {

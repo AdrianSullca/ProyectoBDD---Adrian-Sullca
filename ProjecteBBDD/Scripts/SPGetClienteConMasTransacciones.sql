@@ -1,5 +1,6 @@
 DROP PROCEDURE IF EXISTS GetClienteConMasTransaccionesXml;
 
+
 CREATE PROCEDURE GetClienteConMasTransaccionesXml()
 BEGIN
     DECLARE xml_result TEXT DEFAULT '';

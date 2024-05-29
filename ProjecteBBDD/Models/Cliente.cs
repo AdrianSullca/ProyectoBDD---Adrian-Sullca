@@ -8,6 +8,7 @@ namespace ProjecteBBDD.Models
 {
     public class Cliente
     {
+
         private int codi_cliente;
         private int id_usuario_c;
         private string telefono;

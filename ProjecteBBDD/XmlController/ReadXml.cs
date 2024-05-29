@@ -150,6 +150,7 @@ namespace ProjecteBBDD.XmlController
             return clientes;
         }
 
+
         public void EnviarDatos(List<Usuario> usuarios, List<Pelicula> peliculas, List<Cliente> clientes)
         {
             try

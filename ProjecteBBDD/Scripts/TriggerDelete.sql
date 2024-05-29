@@ -1,5 +1,6 @@
 CREATE TRIGGER ActualizarTotalTransaccionDelete 
 AFTER DELETE ON LINEA_TRANSACCION
+
 FOR EACH ROW
 BEGIN
     DECLARE nuevo_total DECIMAL(10, 2);
