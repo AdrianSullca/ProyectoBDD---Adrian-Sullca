@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cliente codi_cliente="2">
+  <nombre>Ana</nombre>
+  <apellido>Gomez</apellido>
+  <num_transacciones>2</num_transacciones>
+</cliente>
